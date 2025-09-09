@@ -1,24 +1,47 @@
 # 📚 Estruturas de Dados & Algoritmos – Exercícios
 
-Este repositório contém a implementação de algoritmos e análise de complexidade de tempo, desenvolvidos como parte de atividades acadêmicas relacionadas a **estruturas de dados** e **teoria dos grafos**.
+Este repositório contém a implementação e análise de complexidade de algoritmos, desenvolvidos como parte de atividades acadêmicas de **Estruturas de Dados** e **Teoria dos Grafos**.
 
 ---
 
 ## 📝 Lista de Exercícios
 
-### 1️⃣ Algoritmos e Complexidade
+### 1) Elaborar os algoritmos a seguir e calcular a complexidade
 
-**Objetivo:** Implementar os algoritmos abaixo e calcular suas respectivas complexidades de tempo (e, quando aplicável, espaço).
-
-1. **Inserção na cabeça de uma lista ligada**
-2. **Inserção no final de uma lista ligada**, **sem apontador** para o último nó
-3. **Encontrar o segundo menor elemento** de um vetor
-4. **Somar duas matrizes** quadradas de ordem `n`
-5. **Contar ocorrências** de um elemento em um vetor **desordenado** (adaptação da busca sequencial)
+a) **Inserção na cabeça de uma lista ligada**  
+b) **Inserção no final de uma lista ligada**, sem apontador de final de lista  
+c) **Encontrar o segundo menor elemento** de um vetor  
+d) **Somar duas matrizes** quadradas de ordem `n`  
+e) **Encontrar a quantidade de vezes que um elemento ocorre** em um vetor desordenado, adaptando o algoritmo de busca sequencial  
 
 ---
 
-### 2️⃣ Intervalo de um Conjunto
+### 2) Intervalo de um Conjunto
 
 O **intervalo** de um conjunto finito e não vazio `S` de números reais é definido como:
+
+
+Para cada representação de `S` abaixo, elaborar um algoritmo para computar o intervalo e calcular a complexidade:
+
+a) **Vetor ordenado**  
+b) **Vetor desordenado**  
+
+---
+
+### 6) Busca em Grafos
+
+Implementar os algoritmos de **busca em largura (BFS)** e **busca em profundidade (DFS)** apresentados na Aula 08.  
+Admitir que a entrada seja a **matriz de adjacência** do grafo.  
+Calcular a complexidade dos algoritmos.
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- **Linguagem:** Python
+- **Estruturas:** Listas Ligadas, Vetores, Matrizes, Matrizes de Adjacência  
+- **Paradigma:** Programação Estruturada
+
+---
+
 
