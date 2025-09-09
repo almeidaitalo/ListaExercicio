@@ -5,7 +5,7 @@ def bfs(grafo, inicio):
     visitado = [False] * n
     fila = deque([inicio])
     visitado[inicio] = True
-
+                                            
     while fila:
         u = fila.popleft()
         for v in range(n):
