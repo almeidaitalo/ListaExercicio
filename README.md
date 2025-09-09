@@ -1,6 +1,6 @@
 # 📚 Estruturas de Dados & Algoritmos – Exercícios
 
-Este repositório contém a implementação e análise de complexidade de algoritmos, desenvolvidos como parte de atividades da disciplina de Projeto e Análise de Algoritmos **Estruturas de Dados** e **Teoria dos Grafos**.
+Este repositório contém a implementação e análise de complexidade de algoritmos, desenvolvidos como parte de atividades da disciplina de Projeto e Análise de Algoritmos.
 
 ---
 
