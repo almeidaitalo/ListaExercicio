@@ -15,7 +15,7 @@ class ListaLigada:
         novo_no = No(dado)
         if not self.cabeca:
             self.cabeca = novo_no
-            return
+            return                          #Complexidade: O(n)
 
         ultimo = self.cabeca
         while ultimo.proximo:

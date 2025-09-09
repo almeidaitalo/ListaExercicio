@@ -12,7 +12,7 @@ def somar_matrizes(matriz1, matriz2):
 
 matriz_a = [[1, 2, 3],
             [4, 5, 6],
-            [7, 8, 9]]
+            [7, 8, 9]]                        #Complexidade: O(n^2)
 
 matriz_b = [[9, 8, 7],
             [6, 5, 4],

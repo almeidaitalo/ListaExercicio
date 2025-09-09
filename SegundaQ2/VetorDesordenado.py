@@ -9,14 +9,14 @@ def calcular_intervalo_vetor_desordenado(vetor_desordenado):
     # Inicializa o menor e o maior com o primeiro elemento do vetor
     menor = vetor_desordenado[0]
     maior = vetor_desordenado[0]
-    
+                                                                               
     # Percorre o restante do vetor a partir do segundo elemento
     for i in range(1, len(vetor_desordenado)):
-        # Atualiza o menor valor se encontrar um elemento menor
-        if vetor_desordenado[i] < menor:
+        # o menor valor se encontrar um elemento menor
+        if vetor_desordenado[i] < menor:                                  #complexidade: O(n)
             menor = vetor_desordenado[i]
         
-        # Atualiza o maior valor se encontrar um elemento maior
+        # o maior valor se encontrar um elemento maior
         if vetor_desordenado[i] > maior:
             maior = vetor_desordenado[i]
             

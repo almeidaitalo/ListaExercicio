@@ -11,7 +11,7 @@ class ListaLigada:
         self.cabeca = None
 
     def inserir_na_cabeca(self, dado):
-        novo_no = No(dado)
+        novo_no = No(dado)                        #Complexidade: O(1)
         novo_no.proximo = self.cabeca
         self.cabeca = novo_no
 

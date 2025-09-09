@@ -8,7 +8,7 @@ def encontrar_segundo_menor(vetor):
     segundo_menor = float('inf')
 
     for numero in vetor:
-        if numero < menor:
+        if numero < menor:                      #Complexidade: O(n)
             segundo_menor = menor
             menor = numero
         elif numero < segundo_menor and numero != menor:

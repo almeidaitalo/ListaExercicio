@@ -6,7 +6,7 @@
 def contar_ocorrencias(vetor, elemento_buscado):
     contador = 0
     for elemento in vetor:
-        if elemento == elemento_buscado:
+        if elemento == elemento_buscado:                   #Complexidade: O(n)
             contador += 1
     return contador
 
