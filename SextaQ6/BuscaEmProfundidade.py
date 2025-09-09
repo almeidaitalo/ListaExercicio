@@ -6,7 +6,7 @@ def dfs_iterativa(grafo, inicio):
 
     while pilha:
         u = pilha[-1]  
-        encontrou_vizinho = False
+        encontrou_vizinho = False              #Complexidade: O(n²)
 
         for v in range(n):
             if grafo[u][v] == 1 and not visitado[v]:

@@ -5,8 +5,9 @@ def bfs(grafo, inicio):
     visitado = [False] * n
     fila = deque([inicio])
     visitado[inicio] = True
-                                            
-    while fila:
+                                         
+    while fila:                      #Complexidade:  O(n²)
+
         u = fila.popleft()
         for v in range(n):
             if grafo[u][v] == 1 and not visitado[v]:
