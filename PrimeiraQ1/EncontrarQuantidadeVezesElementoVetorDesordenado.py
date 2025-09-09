@@ -1,10 +1,12 @@
 
-#Encontrar a quantidade de vezes que um elemento ocorre em um vetor desordenado
+# e) Encontrar a quantidade de vezes que um elemento ocorre em um vetor
+# desordenado, adaptando o algoritmo de busca sequencial
 
-def contar_ocorrencias(vetor, elemento_procurado):
+
+def contar_ocorrencias(vetor, elemento_buscado):
     contador = 0
     for elemento in vetor:
-        if elemento == elemento_procurado:
+        if elemento == elemento_buscado:
             contador += 1
     return contador
 

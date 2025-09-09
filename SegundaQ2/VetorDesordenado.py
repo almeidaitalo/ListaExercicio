@@ -1,7 +1,8 @@
+
+#b)um vetor desordenado
+
 def calcular_intervalo_vetor_desordenado(vetor_desordenado):
-    """
-    Calcula o intervalo de um conjunto de números representado por um vetor desordenado.
-    """
+    
     if len(vetor_desordenado) < 2:
         return 0
     
@@ -25,4 +26,4 @@ def calcular_intervalo_vetor_desordenado(vetor_desordenado):
 vetor_s_desordenado = [15, 8, 40, 3, 31, 22]
 intervalo = calcular_intervalo_vetor_desordenado(vetor_s_desordenado)
 print(f"Vetor: {vetor_s_desordenado}")
-print(f"Intervalo: {intervalo}") # Saída: 37 (pois 40 - 3 = 37)
+print(f"Intervalo: {intervalo}") 

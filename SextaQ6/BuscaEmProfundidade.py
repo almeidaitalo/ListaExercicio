@@ -5,7 +5,7 @@ def dfs_iterativa(grafo, inicio):
     visitado[inicio] = True
 
     while pilha:
-        u = pilha[-1]  # consulta o topo da pilha
+        u = pilha[-1]  
         encontrou_vizinho = False
 
         for v in range(n):
@@ -16,6 +16,6 @@ def dfs_iterativa(grafo, inicio):
                 break
 
         if not encontrou_vizinho:
-            pilha.pop()  # desempilha se não há vizinho
+            pilha.pop()  
 
     return visitado
