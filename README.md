@@ -1,20 +1,24 @@
-1) Elaborar os algoritmos a seguir e calcular a complexidade:
-a) Inserção na cabeça de uma lista ligada;
-b) Inserção no final de uma lista ligada, sem apontador de final de lista;
-c) Encontrar o segundo menor elemento de um vetor;
-d) Somar duas matrizes quadradas de ordem n;
-e) Encontrar a quantidade de vezes que um elemento ocorre em um vetor
-desordenado, adaptando o algoritmo de busca sequencial;
+# 📚 Estruturas de Dados & Algoritmos – Exercícios
 
+Este repositório contém a implementação de algoritmos e análise de complexidade de tempo, desenvolvidos como parte de atividades acadêmicas relacionadas a **estruturas de dados** e **teoria dos grafos**.
 
-2) O intervalo de um conjunto finito e não vazio de números reais S é definido como
-a diferença entre o maior e o menor elementos de S. Para cada representação de S
-abaixo elabore um algoritmo para computar o intervalo e calcule a complexidade
-destes algoritmos.
-a) um vetor ordenado
-b) um vetor desordenado
+---
 
+## 📝 Lista de Exercícios
 
-6) Implemente os algoritmos de busca em largura e profundidade apresentados na
-Aula08. Admita que a entrada seja a matriz de adjacência do grafo. Calcule a
-complexidade dos algoritmos.
+### 1️⃣ Algoritmos e Complexidade
+
+**Objetivo:** Implementar os algoritmos abaixo e calcular suas respectivas complexidades de tempo (e, quando aplicável, espaço).
+
+1. **Inserção na cabeça de uma lista ligada**
+2. **Inserção no final de uma lista ligada**, **sem apontador** para o último nó
+3. **Encontrar o segundo menor elemento** de um vetor
+4. **Somar duas matrizes** quadradas de ordem `n`
+5. **Contar ocorrências** de um elemento em um vetor **desordenado** (adaptação da busca sequencial)
+
+---
+
+### 2️⃣ Intervalo de um Conjunto
+
+O **intervalo** de um conjunto finito e não vazio `S` de números reais é definido como:
+
