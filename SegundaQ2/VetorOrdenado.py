@@ -1,18 +1,13 @@
 
-
 #a) um vetor ordenado
 
 def calcular_intervalo_vetor_ordenado(vetor_ordenado):
     
-    # Verifica se o vetor tem elementos suficientes para ter um intervalo.
-    
     if len(vetor_ordenado) < 2:
         return 0
-
-    # O menor elemento é o primeiro do vetor ordenado
+    
     menor = vetor_ordenado[0]
                                                                              #Complexidade: O(1)
-    # O maior elemento é o último do vetor ordenado
     maior = vetor_ordenado[-1]
     
     return maior - menor

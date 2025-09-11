@@ -1,7 +1,6 @@
 
 #b) Inserção no final de uma lista ligada, sem apontador de final de lista;
 
-
 class No:
     def __init__(self, dado):
         self.dado = dado

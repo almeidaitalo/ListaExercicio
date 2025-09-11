@@ -2,7 +2,7 @@
 
 def encontrar_segundo_menor(vetor):
     if len(vetor) < 2:
-        return None  # Não há segundo menor se o vetor tiver menos de 2 elementos
+        return None  
 
     menor = float('inf')
     segundo_menor = float('inf')
