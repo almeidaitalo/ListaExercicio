@@ -5,7 +5,7 @@ def bfs(grafo, inicio):
     visitado = [False] * n
     fila = deque([inicio])
     visitado[inicio] = True
-                                         
+    ordem = [inicio]                                    
     while fila:                      #Complexidade:  O(n²)
 
         u = fila.popleft()
@@ -13,5 +13,18 @@ def bfs(grafo, inicio):
             if grafo[u][v] == 1 and not visitado[v]:
                 visitado[v] = True
                 fila.append(v)
+                ordem.append(v)
 
-    return visitado
+    return ordem
+
+# Matriz de adjacência 
+grafo = [
+    [0, 1, 1, 0, 0],
+    [1, 0, 1, 1, 0],
+    [1, 1, 0, 0, 1],
+    [0, 1, 0, 0, 1],
+    [0, 0, 1, 1, 0]
+]
+
+# Testando os algoritmos
+print("BFS:", bfs(grafo, 0))
