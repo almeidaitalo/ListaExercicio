@@ -19,8 +19,6 @@ e) **Encontrar a quantidade de vezes que um elemento ocorre** em um vetor desord
 ### 2) Intervalo de um Conjunto
 
 O **intervalo** de um conjunto finito e não vazio `S` de números reais é definido como:
-
-
 Para cada representação de `S` abaixo, elaborar um algoritmo para computar o intervalo e calcular a complexidade:
 
 a) **Vetor ordenado**  
